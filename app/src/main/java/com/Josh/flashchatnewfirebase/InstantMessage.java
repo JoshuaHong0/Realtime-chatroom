@@ -1,0 +1,21 @@
+package com.Josh.flashchatnewfirebase;
+
+
+class InstantMessage {
+
+    private String message;
+    private String author;
+
+    InstantMessage(String message, String author) {
+        this.message = message;
+        this.author = author;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+}
